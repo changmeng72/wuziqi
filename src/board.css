@@ -1,0 +1,95 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background:  transparent;
+    border:none;
+    float: left;
+    height: 35px;    
+    padding: 0;
+    width: 35px;
+    border-radius:17px;
+  }
+  .black-chess{
+    background: black;
+     
+  }
+  .black-chess-border{
+    background: black;
+    border: 2px solid red;
+     
+  }
+
+   .white-chess{
+    background: white;
+     
+  }
+  .white-chess-border{
+    background: white;
+    border: 2px solid red; 
+  }
+  .square:focus {
+    outline: none;
+  }
+  .square:hover{
+      cursor: pointer;
+  }
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+
+  .panel{
+    position:relative;
+  }
+  .cloud{
+    position:absolute;
+    top:43px;
+    left:43px;
+  }
+
+  .container {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    background:#fff;
+    margin:auto;
+     
+  }
+p {
+  white-space: pre;
+}
+  .mytitle{
+    position:absolute;
+    top:0px;
+    left:200px;
+    font-size: 20px;
+    color:white;
+  }
+
+  
+  
