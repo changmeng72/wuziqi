@@ -1,6 +1,6 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
+    margin: 5px;
   }
   
   ol, ul {
@@ -86,10 +86,31 @@ p {
   .mytitle{
     position:absolute;
     top:0px;
-    left:200px;
-    font-size: 20px;
+    width:100%;
+    text-align:center;
+    font-size: 1.5rem;
     color:white;
+    background-color: darkseagreen;
   }
 
+  .cover-waiting {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:red;
+
+    
+  }
+
+  .cover-on {
+    z-index: 99;
+  }
   
   
