@@ -19,6 +19,10 @@ class MyButton extends React.Component{
     else if(this.props.status===4)
        return 'square white-chess-border';
   }
+
+
+
+
   render(){
     return <button className={this.getButtonColor()} onClick={this.props.onClick}></button>
   }
@@ -55,10 +59,12 @@ function MyGame(){
   const [user,setUser] = useState('BLACK');
   const [over,setOver] = useState(-1);
   const [state, setState] = useState({
+
     status:Array(19).fill(0).map(x => Array(19).fill(0)),
     currentStep:1,
     stepNum:0,
-    preStep:{x:-1,y:-1}
+    preStep: { x: -1, y: -1 }
+    
   });
 
   useEffect(()=>{
