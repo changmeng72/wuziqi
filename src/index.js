@@ -46,6 +46,9 @@ function MyCover(props){
     <div className={props.cover?"cover-waiting":"cover-waiting cover-on"}>Please wait...</div>
   )
 }
+
+
+
 function MyGame(){   
 /*
   const [status,setStatus] = useState(Array(19).fill(0).map(x => Array(19).fill(0)));
